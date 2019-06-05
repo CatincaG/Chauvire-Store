@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Italianno', cursive;
+  font-size: 16px;
+  color: #444;
+}
+
+header{
+  border-bottom:solid 1px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo{
+  width: 89px;
+  height: 58.5px;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  font-size: 30px;
+}
+nav p:hover{
+  color: #ffcccc;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #fff;
+}
+
+#txtBigger {
+  font-size: 22px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.socialNet{
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.socialNet img{
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+}
+
+.socialNet img:hover, .soacialNetEnd img:hover{
+  background: #ffcccc;
+  border-radius: 50%;
+}
+
+main {
+  height: 500px;
+}
+
+main h2 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
